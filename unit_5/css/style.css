@@ -4,67 +4,35 @@ body {
 	font-family: 'Arimo', sans-serif;
 	line-height: 1.3em;
 	letter-spacing: 0.04em;
-
 	color: #ffffff;
 }
+
+#container {
+	width: 100%;
+}
+
+#container:before,
+#container:after {
+  content:"";
+  display: table ;
+  clear:both;
+}
+
 header{
 	background-color: #ffed74;
 	border: 1px black solid;
-	margin: 20px;
-
+	float: left;
+	width: 20%;
 }
 nav{
 	background-color: #E8C66A;
 	border: 1px black solid;
-	margin: 20px;
+	width: 40%;
+	margin-left: 20%;
+	display: block;
 }
-section{
-	background-color: ##FFE2B8;
-	border: 1px black solid;
-	margin: 20px;
+#main-section{
+	background-color: #FFE2B8;
+	float: right;
+	width: 40%;
 }
-aside{
-	background-color: #FFC675;
-	border: 1px black solid;
-	margin: 20px;
-}
-footer{
-	background-color: #FF957E;
-	border: 1px black solid;
-	margin: 20px;
-}
-h1{
-	color: #d8d2ff;
-	font-size: 26px;
-	padding-left: 250px;
-	line-height: 1.2em;
-}
-h2{
-
-}
-h3{
-	color: #d8d2ff;
-	font-size: 12px;
-	font-weight: lighter;
-	padding-left: 250px;
-}
-p{
-}
-ul{
-	list-style: none;
-}
-a{
-	color: #ffffff;
-	text-decoration: none;
-}
-.navigation{
-	font-size: 14px; 
-	margin: 100px;
-}
-#logo{
-	width: 90px;
-	margin-top: 200px;
-}
-#followlink{
-	font-size: 10px;
-	padding-left: 250px;
